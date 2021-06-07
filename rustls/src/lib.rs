@@ -318,7 +318,7 @@ pub use crate::server::handy::{NoServerSessionStorage, ServerSessionMemoryCache}
 pub use crate::server::StoresServerSessions;
 pub use crate::server::{ClientHello, ProducesTickets, ResolvesServerCert};
 pub use crate::server::{ServerConfig, ServerConnection};
-pub use crate::stream::{Stream, StreamOwned};
+pub use crate::stream::{Stream, StreamClonabel, StreamOwned};
 pub use crate::suites::{
     BulkAlgorithm, SupportedCipherSuite, Tls12CipherSuite, Tls13CipherSuite, ALL_CIPHERSUITES,
     DEFAULT_CIPHERSUITES,
